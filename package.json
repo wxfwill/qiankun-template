@@ -6,11 +6,11 @@
   "scripts": {
     "examples:install": "npm-run-all --serial install:*",
     "examples:start": "npm-run-all --parallel start:*",
-    "install:main": "cd dome-main && npm",
+    "install:main": "cd dome-main && npm install",
     "start:main": "cd dome-main && npm run serve",
-    "install:react": "cd dome-react && npm",
+    "install:react": "cd dome-react && npm install",
     "start:react": "cd dome-react && npm run start",
-    "install:vue": "cd dome-vue && npm",
+    "install:vue": "cd dome-vue && npm install",
     "start:vue": "cd dome-vue && npm run serve"
   },
   "keywords": [],
